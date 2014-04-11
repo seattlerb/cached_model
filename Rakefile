@@ -8,7 +8,6 @@ Hoe.new 'cached_model', CachedModel::VERSION do |p|
   p.description = 'CachedModel caches simple (by id) finds in memcached reducing the amount of work the database needs to perform for simple queries.'
   p.author = ['Eric Hodel', 'Robert Cottrell']
   p.email = 'eric@robotcoop.com'
-  p.rubyforge_name = 'seattlerb'
 
   p.changes = File.read('History.txt').scan(/\A(=.*?)^=/m).first.first
 
